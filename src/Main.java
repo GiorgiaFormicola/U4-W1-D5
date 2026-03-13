@@ -75,6 +75,7 @@ public class Main {
             if (mediaNumber == 0) {
                 break;
             } else if (mediaNumber >= 1 && mediaNumber <= 5) {
+                System.out.println("Now playing: " + mediaList[mediaNumber - 1].getTitle());
                 mediaList[mediaNumber - 1].read();
             } else {
                 System.out.println("Media not available");
