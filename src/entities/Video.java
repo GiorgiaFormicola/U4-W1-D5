@@ -20,7 +20,7 @@ public class Video extends MediaObject implements Audible, Viewable {
     }
 
     ;
-    
+
     //METHODS LIST AS READABLE + AUDIBLE
     public void play() {
         for (int i = 0; i < this.length; i++) {
@@ -71,7 +71,7 @@ public class Video extends MediaObject implements Audible, Viewable {
     public String toString() {
         return "Video {" +
                 "title: " + title +
-                ", length: " + length + "minutes" +
+                ", length: " + length + " minutes" +
                 ", volume: " + volume + "/10" +
                 ", brightness: " + brightness + "/10" +
                 '}';

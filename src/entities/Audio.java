@@ -47,7 +47,7 @@ public class Audio extends MediaObject implements Audible {
     public String toString() {
         return "Audio {" +
                 "title: " + title +
-                ", length: " + length + "minutes" +
+                ", length: " + length + " minutes" +
                 ", volume: " + volume + "/10" +
                 '}';
     }
