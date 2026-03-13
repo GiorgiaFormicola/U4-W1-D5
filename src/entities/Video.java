@@ -1,6 +1,9 @@
 package entities;
 
-public class Video extends MediaObject {
+import interfaces.Audible;
+import interfaces.Viewable;
+
+public class Video extends MediaObject implements Audible, Viewable {
     //ATTRIBUTES LIST AS AUDIBLE
     private int length;
     private int volume;
@@ -16,6 +19,12 @@ public class Video extends MediaObject {
         this.brightness = 5; //AS VIEWABLE
     }
 
+    ;
+
+    //GETTERS
+    public int getVolume() {
+        return this.volume;
+    }
 
     //METHODS LIST AS READABLE + AUDIBLE
     public void play() {

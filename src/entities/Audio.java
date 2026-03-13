@@ -1,6 +1,8 @@
 package entities;
 
-public class Audio extends MediaObject {
+import interfaces.Audible;
+
+public class Audio extends MediaObject implements Audible {
     //ATTRIBUTES LIST AS AUDIBLE
     private int length;
     private int volume;
