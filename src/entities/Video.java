@@ -5,10 +5,10 @@ public class Video extends MediaObject {
     private int length;
     private int volume;
 
-    //ATTRIBUTES LIST AS SHOWABLE;
+    //ATTRIBUTES LIST AS SHOWABLE
     private int brightness;
 
-    //CONSTRUCTORS LIST;
+    //CONSTRUCTORS LIST
     public Video(String title, int length, int brightness) {
         super(title); // AS READABLE
         this.length = length; // AS PLAYABLE
@@ -16,7 +16,7 @@ public class Video extends MediaObject {
         this.brightness = 5; //AS SHOWABLE
     }
 
-    //METHODS LIST AS READABLE + PLAYABLE;
+    //METHODS LIST AS READABLE + PLAYABLE
     public void play() {
         for (int i = 0; i < this.length; i++) {
             System.out.println(this.title + "!".repeat(this.volume) + "*".repeat(this.brightness));

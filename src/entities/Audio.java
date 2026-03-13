@@ -5,14 +5,14 @@ public class Audio extends MediaObject {
     private int length;
     private int volume;
 
-    //CONSTRUCTORS LIST;
+    //CONSTRUCTORS LIST
     public Audio(String title, int length) {
         super(title);
         this.length = length;
         this.volume = 5;
     }
 
-    //METHODS LIST AS READABLE + PLAYABLE;
+    //METHODS LIST AS READABLE + PLAYABLE
     public void play() {
         for (int i = 0; i < this.length; i++) {
             System.out.println(this.title + "!".repeat(this.volume));
