@@ -1,6 +1,6 @@
 package entities;
 
-public class MediaObject {
+public abstract class MediaObject {
     //ATTRIBUTES LIST
     protected String title;
 
@@ -15,9 +15,7 @@ public class MediaObject {
     }
 
     //METHODS LIST
-    public void read() {
-        System.out.println("Reading: " + this.title);
-    }
+    public abstract void read();
 
     ;
 }

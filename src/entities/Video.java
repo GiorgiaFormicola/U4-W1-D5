@@ -16,6 +16,7 @@ public class Video extends MediaObject {
         this.brightness = 5; //AS SHOWABLE
     }
 
+
     //METHODS LIST AS READABLE + PLAYABLE
     public void play() {
         for (int i = 0; i < this.length; i++) {
@@ -57,4 +58,8 @@ public class Video extends MediaObject {
         }
     }
 
+    @Override
+    public void read() {
+        play();
+    }
 }

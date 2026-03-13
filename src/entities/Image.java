@@ -32,5 +32,10 @@ public class Image extends MediaObject {
         }
     }
 
+    @Override
+    public void read() {
+        show();
+    }
+
 
 }

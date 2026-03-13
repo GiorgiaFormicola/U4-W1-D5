@@ -36,5 +36,10 @@ public class Audio extends MediaObject {
         }
     }
 
+    @Override
+    public void read() {
+        play();
+    }
+
 
 }
