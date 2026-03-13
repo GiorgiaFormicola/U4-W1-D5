@@ -20,12 +20,7 @@ public class Video extends MediaObject implements Audible, Viewable {
     }
 
     ;
-
-    //GETTERS
-    public int getVolume() {
-        return this.volume;
-    }
-
+    
     //METHODS LIST AS READABLE + AUDIBLE
     public void play() {
         for (int i = 0; i < this.length; i++) {
