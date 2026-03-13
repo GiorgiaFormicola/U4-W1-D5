@@ -43,6 +43,7 @@ public class Main {
             }
         }
 
+
         System.out.println("Media created successfully: " + Arrays.toString(mediaList));
 
         while (true) {
@@ -58,5 +59,14 @@ public class Main {
             }
         }
 
+      /*  Video video1 = new Video("Video", 3);
+        video1.turnDownBrightness();
+        video1.turnUpVolume();
+
+        Audio audio1 = new Audio("Audio", 5);
+        audio1.turnUpVolume();
+
+        Image image1 = new Image ("Image");
+        image1.turnUpBrightness();*/
     }
 }
