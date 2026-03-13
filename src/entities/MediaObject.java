@@ -9,10 +9,10 @@ public abstract class MediaObject {
         this.title = title;
     }
 
-    //GETTERS LIST
+    /*//GETTERS LIST
     public String getTitle() {
         return this.title;
-    }
+    }*/
 
     //METHODS LIST
     public abstract void read();

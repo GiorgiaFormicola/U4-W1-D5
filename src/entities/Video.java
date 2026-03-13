@@ -9,7 +9,7 @@ public class Video extends MediaObject {
     private int brightness;
 
     //CONSTRUCTORS LIST
-    public Video(String title, int length, int brightness) {
+    public Video(String title, int length) {
         super(title); // AS READABLE
         this.length = length; // AS PLAYABLE
         this.volume = 5;      // AS PLAYABLE

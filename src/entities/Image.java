@@ -5,7 +5,7 @@ public class Image extends MediaObject {
     private int brightness;
 
     //CONSTRUCTORS LIST
-    public Image(String title, int brightness) {
+    public Image(String title) {
         super(title); // AS READABLE
         this.brightness = 5; //AS SHOWABLE
     }
