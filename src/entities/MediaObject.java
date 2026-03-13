@@ -2,7 +2,7 @@ package entities;
 
 public class MediaObject {
     //ATTRIBUTES LIST
-    private String title;
+    protected String title;
 
     //CONSTRUCTORS LIST
     public MediaObject(String title) {
